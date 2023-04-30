@@ -1,0 +1,391 @@
+*:focus {
+  outline: none;
+}
+.content1,
+.content2,
+.main,
+.sidebar {
+  position: absolute;
+  top: 736px;
+  left: 485px;
+  width: 955px;
+  height: 74px;
+}
+
+.content1,
+.content2,
+.main,
+.sidebar {
+  top: 80px;
+  height: 476px;
+}
+
+.content1,
+.content2,
+.sidebar {
+  top: 573px;
+  height: 54px;
+}
+
+.content2,
+.sidebar {
+  top: 644px;
+  height: 72px;
+}
+
+.sidebar {
+  top: 90px;
+  left: 0;
+  width: 467px;
+  height: 100%;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  width: 1440px;
+  height: 63px;
+}
+.caja-child {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 400px;
+  height: 100px;
+}
+.swal2-title {
+  font-family: "Montserrat", sans-serif;
+}
+.caja-group {
+  outline-color: coral;
+  color: var(--color-white);
+  top: 143px;
+  left: 45px;
+  height: 360px;
+  font-size: var(--font-size-sm);
+  position: absolute;
+  display: flexbox;
+}
+.caja-titulo {
+  position: absolute;
+  left: 53px;
+  height: calc(100% - 76px);
+  top: 10px;
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  color: var(--color-white);
+  width: 105px;
+}
+.caja1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 407px;
+  height: 100px;
+}
+.caja2 {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  width: 407px;
+  height: 100px;
+}
+.caja3 {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  width: 407px;
+  height: 100px;
+}
+.side-text1 {
+  position: absolute;
+  top: 40px;
+  left: 53px;
+  display: flex;
+  width: 350px;
+  height: 67px;
+}
+.side-text2 {
+  position: absolute;
+  height: calc(100% - 33px);
+  top: 40px;
+  left: 53px;
+  display: flex;
+  width: 350px;
+}
+.side-text3 {
+  position: absolute;
+  height: calc(100% - 33px);
+  top: 40px;
+  left: 53px;
+  display: flex;
+  width: 350px;
+}
+.icon-side1 {
+  position: absolute;
+  top: 40%;
+  bottom: 77.5px;
+  left: 16.5px;
+  width: 21.52px;
+}
+.icon-side2 {
+  position: absolute;
+  top: 40%;
+  bottom: 70.38px;
+  left: 16.5px;
+  width: 21.52px;
+}
+.icon-side3 {
+  position: absolute;
+  top: 40%;
+  bottom: 70.69px;
+  left: 18.62px;
+  width: 14.23px;
+}
+.btn-backg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: coral;
+  width: 180px;
+  height: 40px;
+}
+.btn-textpos {
+  position: absolute;
+  top: 10px;
+  left: 43px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-display);
+  color: var(--color-white);
+  text-align: center;
+}
+.copiar-texto {
+  position: absolute;
+  top: 6px;
+  left: 39px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-display);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.btn-group {
+  position: absolute;
+  height: 29px;
+  top: 585px;
+  left: 611px;
+  width: 699px;
+}
+.button1 {
+  position: absolute;
+  height: 29px;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 135px;
+}
+.btn1-icon {
+  position: absolute;
+  height: 42%;
+  top: 40%;
+  right: 76.28%;
+  bottom: 15.11%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 188px;
+  width: 135px;
+  height: 29px;
+}
+.btn2-icon {
+  position: absolute;
+  height: 60%;
+  top: 40%;
+  right: 76.28%;
+  bottom: 15.11%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 376px;
+  width: 135px;
+  height: 29px;
+}
+.btn3-icon {
+  position: absolute;
+  height: 60%;
+  top: 40%;
+  right: 79.67%;
+  bottom: 16.18%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 564px;
+  width: 135px;
+  height: 29px;
+}
+.btn4-icon {
+  position: absolute;
+  height: 60%;
+  top: 40%;
+  right: 78.15%;
+  bottom: 21.46%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+/* .content {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  width: 862px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+} */
+.caja-ingreso {
+  top: 658px;
+  left: 515px;
+  padding-left: 1%;
+  font-family: var(--font-display);
+  color: var(--color-white);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 894px;
+  height: 43px;
+}
+::placeholder {
+  font-family: var(--font-display);
+  color: rgb(175, 175, 175);
+  flex: 1;
+  padding-left: 1%;
+  opacity: 0.8; /* Firefox */
+}
+.caja-ingreso,
+.caja-salida {
+  position: absolute;
+}
+.caja-salida {
+  font-family: var(--font-display);
+  color: var(--color-white);
+  font-size: var(--font-size-base);
+  border: 0;
+  background-color: transparent;
+  top: 111px;
+  left: 515px;
+  border-radius: var(--br-3xs);
+  width: 894px;
+  height: 200px;
+  min-height: 0;
+  max-height: 424px;
+  visibility: hidden;
+  resize: none;
+}
+.nav div {
+  float: left;
+  display: block;
+  margin: 2px 2px 2px 2px;
+  padding: 20px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+  background-image: linear-gradient(90deg, #4d78ef, #709df7, #7ed4fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+.name {
+  position: relative;
+  z-index: 2;
+}
+.icon-git,
+.icon-link {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon-link {
+  z-index: 0;
+}
+.footer {
+  top: 736px;
+  left: 70vh;
+  z-index: 3;
+  position: relative;
+  width: 614px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 27px 18px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.caja-img {
+  visibility: visible;
+  position: absolute;
+  background-color: transparent;
+  top: 111px;
+  left: 600px;
+  width: 600px;
+  height: 424px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.caja-img img {
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+.index1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-size: var(--font-size-base);
+  font-family: var(--font-display);
+}

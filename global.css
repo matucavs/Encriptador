@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+:root {
+  /* fonts */
+  --font-display: Montserrat;
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-21xl: 40px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #919191;
+  --color-gray-200: #767676;
+  --color-silver: #c0c0c0;
+  --color-coral: #ff9153;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-100: #d1ddd1;
+  --color-gainsboro-300: rgba(217, 217, 217, 0);
+  --color-dimgray: #585858;
+  --gray-300: #d1d5db;
+  --tw-bg-opacity: 1;
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+}
