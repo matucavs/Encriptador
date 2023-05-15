@@ -13,4 +13,5 @@
         "Swal",
         "textpos"
     ]
+    "editor.glyphMargin": false
 }

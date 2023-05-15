@@ -112,38 +112,28 @@ function desencriptarTexto() {
 
 //-----------FUNCIÓN COPY PASTE---------------//
 function copiarResultado() {
-  let textoResultadoBox = document.getElementById("textoResultadoBox");
-  let textoBox = document.getElementById("textoBox");
+  const textoResultadoBox = document.getElementById("textoResultadoBox");
+  const textoBox = document.getElementById("textoBox");
 
-  if (textoResultadoBox && textoBox) {
-    if (textoResultadoBox.value) {
-      textoBox.value = textoResultadoBox.value;
-      textoResultadoBox.value = "";
-    } else {
-      Swal.fire({
-        position: "center",
-        width: "15em",
-        toast: true,
-        icon: "warning",
-        title: "No hay texto para copiar",
-        showConfirmButton: false,
-        timer: 1500,
-      });
-    }
+  const texto = textoResultadoBox.value;
+
+  if (texto) {
+    textoBox.value = texto;
+    textoResultadoBox.value = "";
   } else {
-    alert("Texto no encontrado");
+    Swal.fire({
+      position: "center",
+      width: "15em",
+      toast: true,
+      icon: "warning",
+      title: "No hay texto para copiar",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   }
-  return;
 }
-/*
-//---------INTERCAMBIAR IMG-------//
-function hideCajaImg() {
-  var cajaImg = document.querySelector(".caja-img");
-  var caja-salida = document.querySelector(".caja-salida");
-  cajaImg.style.display = "none";
-  caja-salida.style.display = "block";
-}
-*/
+
+
 function hideCajaImg() {
   document.getElementById("imgbox").style.visibility = "hidden";
   document.getElementById("textoResultadoBox").style.visibility = "visible";
@@ -152,7 +142,6 @@ function showCajaImg() {
   document.getElementById("imgbox").style.visibility = "visible";
   document.getElementById("textoResultadoBox").style.visibility = "hidden";
 }
-
 
 //---------INTERCAMBIAR IMG FIN-------//
 
@@ -185,7 +174,6 @@ function limpiar() {
 }
 
 function paso1() {
-  
   encriptarTexto();
   hideCajaImg();
 }
